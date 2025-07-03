@@ -32,7 +32,7 @@ class Cat extends Animal {
     }
 }
 
-public class Interfaces {
+public class Abstraction {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         // Input names for dog and cat
