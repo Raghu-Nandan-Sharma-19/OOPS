@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 class Department {
     private String name;
     private String id;
@@ -36,23 +34,19 @@ class Employee {
     }
 }
 
-public class Aggregation {
+public class LearnAggregation {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
         System.out.print("Enter Employee Name : ");
-        String employeeName = sc.nextLine();
+        String employeeName = "Raj";
         
         System.out.print("Enter Employee Id : ");
-        int employeeId = sc.nextInt();
-
-        sc.nextLine();
+        int employeeId = 79;
 
         System.out.print("Enter Department Name : ");
-        String departmentName = sc.nextLine();
+        String departmentName = "Software Development";
         
         System.out.print("Enter Department Id : ");
-        String  departmentId = sc.nextLine();
+        String  departmentId = "SDE7890";
 
         System.out.println();
         
@@ -64,7 +58,5 @@ public class Aggregation {
         
         //calls the display method using the employee object
         employee.displayDetails();
-
-        sc.close();
     }
 }
