@@ -13,12 +13,12 @@ class Department {
     }
 }
 
-class Employee {
+class Employee2 {
     private String name;
     private int id;
     private Department department;
 
-    public Employee(String name, int id, Department department) {
+    public Employee2(String name, int id, Department department) {
         this.name = name;
         this.id = id;
         this.department = department;
@@ -54,7 +54,7 @@ public class LearnAggregation {
         Department department = new Department(departmentName, departmentId);
         
         //creates a object of Employee class with employeeName, employeeId, department as the arguments
-        Employee employee = new Employee(employeeName, employeeId, department);
+        Employee2 employee = new Employee2(employeeName, employeeId, department);
         
         //calls the display method using the employee object
         employee.displayDetails();
